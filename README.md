@@ -37,9 +37,13 @@ Hmm, I don't know why flatten way is more useful in my current private projects.
 
 # Usage #
 
-Flattenr.js can be installed using npm or bower (next todo). To install flattenr.js via npm:
+Flattenr.js can be installed using npm or bower. To install flattenr.js via npm:
 
-	npm install flattenr
+	npm install flattenr.js
+
+Bower
+
+	bower install flattenr.js
 
 Suppose I have standard formatted JSON data from [http://www.json-generator.com/](http://www.json-generator.com/):
 
