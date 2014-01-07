@@ -1,0 +1,23 @@
+{
+  "name": "flattenr.js",
+  "version": "0.1.0",
+  "description": "Flattens a nested JSON objects to be more safe use.",
+  "main": "flattenr.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raitucarp/flattenr.js.git"
+  },
+  "keywords": [
+    "JSON",
+    "array",
+    "object",
+    "flat",
+    "util",
+    "flatten"
+  ],
+  "author": "raitucarp (Ribhararnus Pracutiar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raitucarp/flattenr.js/issues"
+  }
+}
