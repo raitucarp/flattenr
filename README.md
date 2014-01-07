@@ -346,7 +346,7 @@ Suppose I have standard formatted JSON data from [http://www.json-generator.com/
 
 Flat that JSON:
 
-	var Flattenr = require('flattenr');
+	var Flattenr = require('flattenr.js');
 
 	var objects = '..' //see above, I will not paste it again here.
 	
