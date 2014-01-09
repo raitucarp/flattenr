@@ -32,7 +32,7 @@ to this:
 
 # Why choose the flatten way? #
 
-Hmm, I don't know why flatten way is more useful in my current private projects. It can knowing more the deep nested JSON data and select it to be more safe use. 
+Hmm, I don't know why flatten way is more useful in my current private projects. It can knows more the deep nested JSON data and select it to be more safe use. 
 
 
 # Usage #
