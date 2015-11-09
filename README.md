@@ -16,8 +16,7 @@ Flattens a nested array/objects to be more safe use. Change standard JSON format
 
 to this:
 
-	{ length: 12,
-	  'today/0': 'a',
+	{ 'today/0': 'a',
 	  'today/1': 'b',
 	  'today/2': 'c',
 	  'today/3': 'd',

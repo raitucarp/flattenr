@@ -1,6 +1,6 @@
 function Flattenr(objects, separator) {
 	var x;
-	var flatten = {length: 0};
+	var flatten = {}
 	var that = this;
 	
 	if (typeof separator === 'undefined') {
@@ -18,7 +18,6 @@ function Flattenr(objects, separator) {
 		for (y in f) {
 			if (typeof f[y] !== 'object') {
 				current[y] = f[y];
-				current.length++;
 			} else {
 				current = flat(current, y, f[y]);
 			}
@@ -30,7 +29,6 @@ function Flattenr(objects, separator) {
 		for (var x in objects) {
 			if (typeof objects[x] !== 'object') {
 				flatten[x] = objects[x];
-				flatten.length++;
 			} else {
 				flatten = flat(flatten, x, objects[x]);
 			}
@@ -38,13 +36,12 @@ function Flattenr(objects, separator) {
 	};
 	
 	this.q = function (criteria) {
-		var qResult = {length: 0}, i;
+		var qResult = {}
 		if (typeof criteria !== 'object') {
 			criteria = new RegExp(criteria, 'g');
 			for (i in flatten) {
 				if (i.match(criteria) || flatten[i].toString().match(criteria)) {
 					qResult[i] = flatten[i];
-					qResult.length++;
 				}
 			}
 			return qResult;
@@ -57,7 +54,6 @@ function Flattenr(objects, separator) {
                 for (i in flatten) {
                     if (i.match(c) && flatten[i].toString().match(regexpCriteria)) {
                         qResult[i] = flatten[i];
-                        qResult.length++;
                     }
                 }
 			}
