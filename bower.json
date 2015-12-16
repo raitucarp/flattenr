@@ -5,5 +5,5 @@
   "ignore": [
     ".jshintrc",
     "**/*.txt"
-  ],
+  ]
 }
