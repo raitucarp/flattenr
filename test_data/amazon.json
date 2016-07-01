@@ -1,0 +1,487 @@
+{
+    "ItemLookupResponse": {
+        "$": {
+            "xmlns": "http://webservices.amazon.com/AWSECommerceService/2013-08-01"
+        },
+        "OperationRequest": [{
+            "RequestId": ["30ce0a36-592d-41b7-b031-62738a37a001"],
+            "Arguments": [{
+                "Argument": [{
+                    "$": {
+                        "Name": "AWSAccessKeyId",
+                        "Value": "XXXXX"
+                    }
+                }, {
+                    "$": {
+                        "Name": "AssociateTag",
+                        "Value": "XXXXXX-20"
+                    }
+                }, {
+                    "$": {
+                        "Name": "ItemId",
+                        "Value": "0679722769"
+                    }
+                }, {
+                    "$": {
+                        "Name": "Operation",
+                        "Value": "ItemLookup"
+                    }
+                }, {
+                    "$": {
+                        "Name": "ResponseGroup",
+                        "Value": "Images,ItemAttributes,Offers,Reviews"
+                    }
+                }, {
+                    "$": {
+                        "Name": "Service",
+                        "Value": "AWSECommerceService"
+                    }
+                }, {
+                    "$": {
+                        "Name": "Timestamp",
+                        "Value": "2016-07-01T06:58:08+00:00"
+                    }
+                }, {
+                    "$": {
+                        "Name": "Version",
+                        "Value": "2013-08-01"
+                    }
+                }, {
+                    "$": {
+                        "Name": "Signature",
+                        "Value": "piYNp/il8y7C9Z8sywariTAwLgPt4r8vr57xmNeyL1s="
+                    }
+                }]
+            }],
+            "RequestProcessingTime": ["0.0357549710000000"]
+        }],
+        "Items": [{
+            "Request": [{
+                "IsValid": ["True"],
+                "ItemLookupRequest": [{
+                    "IdType": ["ASIN"],
+                    "ItemId": ["0679722769"],
+                    "ResponseGroup": ["Images", "ItemAttributes", "Offers", "Reviews"],
+                    "VariationPage": ["All"]
+                }]
+            }],
+            "Item": [{
+                "ASIN": ["0679722769"],
+                "DetailPageURL": ["http://www.amazon.com/Ulysses-James-Joyce/dp/0679722769%3FSubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0679722769"],
+                "ItemLinks": [{
+                    "ItemLink": [{
+                        "Description": ["Technical Details"],
+                        "URL": ["http://www.amazon.com/Ulysses-James-Joyce/dp/tech-data/0679722769%3FSubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }, {
+                        "Description": ["Add To Baby Registry"],
+                        "URL": ["http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0679722769%26SubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }, {
+                        "Description": ["Add To Wedding Registry"],
+                        "URL": ["http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0679722769%26SubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }, {
+                        "Description": ["Add To Wishlist"],
+                        "URL": ["http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0679722769%26SubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }, {
+                        "Description": ["Tell A Friend"],
+                        "URL": ["http://www.amazon.com/gp/pdp/taf/0679722769%3FSubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }, {
+                        "Description": ["All Customer Reviews"],
+                        "URL": ["http://www.amazon.com/review/product/0679722769%3FSubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }, {
+                        "Description": ["All Offers"],
+                        "URL": ["http://www.amazon.com/gp/offer-listing/0679722769%3FSubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"]
+                    }]
+                }],
+                "SmallImage": [{
+                    "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL75_.jpg"],
+                    "Height": [{
+                        "_": "73",
+                        "$": {
+                            "Units": "pixels"
+                        }
+                    }],
+                    "Width": [{
+                        "_": "75",
+                        "$": {
+                            "Units": "pixels"
+                        }
+                    }]
+                }],
+                "MediumImage": [{
+                    "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL160_.jpg"],
+                    "Height": [{
+                        "_": "155",
+                        "$": {
+                            "Units": "pixels"
+                        }
+                    }],
+                    "Width": [{
+                        "_": "160",
+                        "$": {
+                            "Units": "pixels"
+                        }
+                    }]
+                }],
+                "LargeImage": [{
+                    "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL.jpg"],
+                    "Height": [{
+                        "_": "484",
+                        "$": {
+                            "Units": "pixels"
+                        }
+                    }],
+                    "Width": [{
+                        "_": "500",
+                        "$": {
+                            "Units": "pixels"
+                        }
+                    }]
+                }],
+                "ImageSets": [{
+                    "ImageSet": [{
+                        "$": {
+                            "Category": "variant"
+                        },
+                        "SwatchImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41Jg8bACC%2BL._SL30_.jpg"],
+                            "Height": [{
+                                "_": "30",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "19",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "SmallImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41Jg8bACC%2BL._SL75_.jpg"],
+                            "Height": [{
+                                "_": "75",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "49",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "ThumbnailImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41Jg8bACC%2BL._SL75_.jpg"],
+                            "Height": [{
+                                "_": "75",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "49",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "TinyImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41Jg8bACC%2BL._SL110_.jpg"],
+                            "Height": [{
+                                "_": "110",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "71",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "MediumImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41Jg8bACC%2BL._SL160_.jpg"],
+                            "Height": [{
+                                "_": "160",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "104",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "LargeImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41Jg8bACC%2BL.jpg"],
+                            "Height": [{
+                                "_": "500",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "324",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }]
+                    }, {
+                        "$": {
+                            "Category": "primary"
+                        },
+                        "SwatchImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL30_.jpg"],
+                            "Height": [{
+                                "_": "29",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "30",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "SmallImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL75_.jpg"],
+                            "Height": [{
+                                "_": "73",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "75",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "ThumbnailImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL75_.jpg"],
+                            "Height": [{
+                                "_": "73",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "75",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "TinyImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL110_.jpg"],
+                            "Height": [{
+                                "_": "106",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "110",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "MediumImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL._SL160_.jpg"],
+                            "Height": [{
+                                "_": "155",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "160",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }],
+                        "LargeImage": [{
+                            "URL": ["http://ecx.images-amazon.com/images/I/41fuOlucVvL.jpg"],
+                            "Height": [{
+                                "_": "484",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }],
+                            "Width": [{
+                                "_": "500",
+                                "$": {
+                                    "Units": "pixels"
+                                }
+                            }]
+                        }]
+                    }]
+                }],
+                "ItemAttributes": [{
+                    "Author": ["James Joyce"],
+                    "Binding": ["Paperback"],
+                    "Brand": ["Joyce, James"],
+                    "Color": ["Cream"],
+                    "EAN": ["9780679722762"],
+                    "EANList": [{
+                        "EANListElement": ["9780679722762"]
+                    }],
+                    "Edition": ["Reissue"],
+                    "ISBN": ["0679722769"],
+                    "ItemDimensions": [{
+                        "Height": [{
+                            "_": "800",
+                            "$": {
+                                "Units": "hundredths-inches"
+                            }
+                        }],
+                        "Length": [{
+                            "_": "520",
+                            "$": {
+                                "Units": "hundredths-inches"
+                            }
+                        }],
+                        "Weight": [{
+                            "_": "126",
+                            "$": {
+                                "Units": "hundredths-pounds"
+                            }
+                        }],
+                        "Width": [{
+                            "_": "140",
+                            "$": {
+                                "Units": "hundredths-inches"
+                            }
+                        }]
+                    }],
+                    "Label": ["Vintage"],
+                    "Languages": [{
+                        "Language": [{
+                            "Name": ["English"],
+                            "Type": ["Published"]
+                        }, {
+                            "Name": ["English"],
+                            "Type": ["Original Language"]
+                        }, {
+                            "Name": ["English"],
+                            "Type": ["Unknown"]
+                        }]
+                    }],
+                    "ListPrice": [{
+                        "Amount": ["1700"],
+                        "CurrencyCode": ["USD"],
+                        "FormattedPrice": ["$17.00"]
+                    }],
+                    "Manufacturer": ["Vintage"],
+                    "MPN": ["9780679722762"],
+                    "NumberOfItems": ["1"],
+                    "NumberOfPages": ["783"],
+                    "PackageDimensions": [{
+                        "Height": [{
+                            "_": "150",
+                            "$": {
+                                "Units": "hundredths-inches"
+                            }
+                        }],
+                        "Length": [{
+                            "_": "800",
+                            "$": {
+                                "Units": "hundredths-inches"
+                            }
+                        }],
+                        "Weight": [{
+                            "_": "127",
+                            "$": {
+                                "Units": "hundredths-pounds"
+                            }
+                        }],
+                        "Width": [{
+                            "_": "510",
+                            "$": {
+                                "Units": "hundredths-inches"
+                            }
+                        }]
+                    }],
+                    "PackageQuantity": ["1"],
+                    "PartNumber": ["9780679722762"],
+                    "ProductGroup": ["Book"],
+                    "ProductTypeName": ["ABIS_BOOK"],
+                    "PublicationDate": ["1990-06-16"],
+                    "Publisher": ["Vintage"],
+                    "ReleaseDate": ["1990-06-16"],
+                    "Studio": ["Vintage"],
+                    "Title": ["Ulysses"]
+                }],
+                "OfferSummary": [{
+                    "LowestNewPrice": [{
+                        "Amount": ["288"],
+                        "CurrencyCode": ["USD"],
+                        "FormattedPrice": ["$2.88"]
+                    }],
+                    "LowestUsedPrice": [{
+                        "Amount": ["1"],
+                        "CurrencyCode": ["USD"],
+                        "FormattedPrice": ["$0.01"]
+                    }],
+                    "LowestCollectiblePrice": [{
+                        "Amount": ["7500"],
+                        "CurrencyCode": ["USD"],
+                        "FormattedPrice": ["$75.00"]
+                    }],
+                    "TotalNew": ["59"],
+                    "TotalUsed": ["219"],
+                    "TotalCollectible": ["1"],
+                    "TotalRefurbished": ["0"]
+                }],
+                "Offers": [{
+                    "TotalOffers": ["1"],
+                    "TotalOfferPages": ["1"],
+                    "MoreOffersUrl": ["http://www.amazon.com/gp/offer-listing/0679722769%3FSubscriptionId%3DXXXXXX%26tag%3DXXXXXX-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679722769"],
+                    "Offer": [{
+                        "OfferAttributes": [{
+                            "Condition": ["New"]
+                        }],
+                        "OfferListing": [{
+                            "OfferListingId": ["vuceSPC5qawsOc%2B93SUELVHp%2B3yjoSyLMBmLmrjywuxAR%2BxXIbNLJqNHhpRffRNU67JDj8OY2vs9e%2B49%2FYKuF%2BSy4B95gtzHRV3xa%2F5IXKQ%3D"],
+                            "Price": [{
+                                "Amount": ["1220"],
+                                "CurrencyCode": ["USD"],
+                                "FormattedPrice": ["$12.20"]
+                            }],
+                            "AmountSaved": [{
+                                "Amount": ["480"],
+                                "CurrencyCode": ["USD"],
+                                "FormattedPrice": ["$4.80"]
+                            }],
+                            "PercentageSaved": ["28"],
+                            "Availability": ["Usually ships in 24 hours"],
+                            "AvailabilityAttributes": [{
+                                "AvailabilityType": ["now"],
+                                "MinimumHours": ["0"],
+                                "MaximumHours": ["0"]
+                            }],
+                            "IsEligibleForSuperSaverShipping": ["1"],
+                            "IsEligibleForPrime": ["1"]
+                        }]
+                    }]
+                }],
+                "CustomerReviews": [{
+                    "IFrameURL": ["http://www.amazon.com/reviews/iframe?akid=XXXXXX&alinkCode=xm2&asin=0679722769&atag=XXXXXX-20&exp=2016-07-02T06%3A58%3A31Z&v=2&sig=VFm9XKbRSv7DLmd2leT5rgwP%2F%2BJP1CWNqbyh6snS5vk%3D"],
+                    "HasReviews": ["true"]
+                }]
+            }]
+        }]
+    },
+    "URL": "http://webservices.amazon.com/onca/xml?AWSAccessKeyId=XXXXXX&AssociateTag=XXXXXX-20&ItemId=0679722769&Operation=ItemLookup&ResponseGroup=Images%2CItemAttributes%2COffers%2CReviews&Service=AWSECommerceService&Timestamp=2016-07-01T06%3A58%3A08%2B00%3A00&Version=2013-08-01&Signature=piYNp%2Fil8y7C9Z8sywariTAwLgPt4r8vr57xmNeyL1s%3D"
+}
