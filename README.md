@@ -645,11 +645,11 @@ var v = f.find("data")
 v.get()
 ```
 
-### f.q({key: value}) ###
+### f.find({key: value}) ###
 
 Same as ```f.find()``` with string as argument, but it pass key-value pairs instead of string. for example:
 ```javascript
-	f.q({balance: "$2,"})
+	f.find({balance: "$2,"})
 ```
 
 ## License ##
