@@ -1,9 +1,0 @@
-{
-  "name": "flattenr.js",
-  "version": "0.1.0",
-  "main": "flattenr.js",
-  "ignore": [
-    ".jshintrc",
-    "**/*.txt"
-  ]
-}
