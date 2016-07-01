@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/flattenr.svg)](https://www.npmjs.com/package/flattenr)
+[![test status](https://travis-ci.org/raitucarp/flattenr.svg?branch=master)](https://travis-ci.org/raitucarp/flattenr)
+
 # Introduction #
 
 Flattenr is a utility that make a JSON data to flat map. Be more safe and readable. Change standard JSON format such this one:
