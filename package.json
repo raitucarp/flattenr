@@ -1,29 +1,37 @@
 {
-    "name": "flattenr",
-    "version": "1.0.0",
-    "description": "Flatten nested JSON objects to flat map. Be more safe and readable.",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/raitucarp/flattenr.git"
-    },
-    "keywords": [
-        "JSON",
-        "array",
-        "object",
-        "flat",
-        "util",
-        "flatten"
-    ],
-    "author": "raitucarp (Ribhararnus Pracutiar)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/raitucarp/flattenr.js/issues"
-    },
-    "scripts": {
-        "test": "ava"
-    },
-    "devDependencies": {
-        "ava": "^0.15.2"
-    }
+  "name": "flattenr",
+  "version": "2.0.0",
+  "description": "Flatten nested JSON objects to flat map. Be more safe and readable.",
+  "main": "dist/Flattenr.js",
+  "types": "dist/Flattenr.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raitucarp/flattenr.git"
+  },
+  "keywords": [
+    "JSON",
+    "array",
+    "object",
+    "flat",
+    "util",
+    "flatten"
+  ],
+  "author": "raitucarp (Ribhararnus Pracutiar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raitucarp/flattenr.js/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {}
 }
