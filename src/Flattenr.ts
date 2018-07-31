@@ -1,4 +1,4 @@
-import QueryResult from "./QueryResult";
+import { SearchQuery, FindFactory } from "./Search";
 
 type JSONVal = string | number | boolean | null;
 export interface FlatJSON {
@@ -11,8 +11,8 @@ export interface JSON {
 
 class Flattenr {
   private originalData: JSON;
-  private separator: string = ".";
   private data: Map<string, JSONVal> = new Map();
+  separator: string = ".";
   constructor(data: JSON, separator: string = ".") {
     this.originalData = data;
     this.separator = separator;
@@ -63,13 +63,11 @@ class Flattenr {
     return this.data.get(key) || null;
   }
 
-  find(query: string | RegExp): FlatJSON {
-    if (typeof query === "string") QueryResult(query);
-
-    if (query instanceof RegExp) {
-      const pattern = new RegExp(escapeRegExp(query), "gi");
-      result = matchPattern(data, pattern);
-    }
+  find(query: SearchQuery): FlatJSON {
+    const factory = new FindFactory(query, this.JSON());
+    const finder = factory.getFinder();
+    if (finder) return finder.result;
+    return {};
   }
 }
 
